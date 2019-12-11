@@ -5,7 +5,7 @@ session_start();
 
 $total=0;
 
-//Database connection, replace with your connection string.. Used PDO
+//Database connection, replace with Williams Project connection string.. Used PDO
 $conn = new PDO("mysql:host=localhost;dbname=tutsplanet", 'root', '');		
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
